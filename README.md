@@ -38,7 +38,7 @@ private string ConvertToColumnName(int columnNumber) {
 }
 
 //Excelの列名(ローマ字)を数値に変換
-private int ConvertToColumnNumber(int columnName) {
+private int ConvertToColumnNumber(string columnName) {
     //なんらかの処理
     return 1
 }
