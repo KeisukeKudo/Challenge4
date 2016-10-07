@@ -53,3 +53,15 @@ JavaならJUnit､.NetならNUnit等など...
 Ruby 2.3.0 ※2.x系なら動くはず  
 ## テストに使用したツール､ライブラリ
 RSpec 3.5.3  
+## 使用方法
+
+```
+$ ruby main.rb -v 12345 #=> RFU
+$ ruby main.rb -v RFU #=> 12345
+```
+## テスト
+RSpecをインストールしていない場合は以下を実行  
+`$ gem install rspec`  
+
+テストの実行  
+`$ rspec test_case.rb`
