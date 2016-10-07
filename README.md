@@ -64,4 +64,7 @@ RSpecをインストールしていない場合は以下を実行
 `$ gem install rspec`  
 
 テストの実行  
-`$ rspec test_case.rb`
+`$ rspec test_case.rb`  
+
+テスト結果  
+![challenge4_test_results](https://github.com/KeisukeKudo/ImageStorage/blob/master/challenge4_test_results.png)
